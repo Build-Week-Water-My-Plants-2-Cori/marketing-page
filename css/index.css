@@ -1,0 +1,61 @@
+/*CSS RESET*/
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    max-width:100%;
+    border:1px solid grey;
+  }
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;	
+    background-color: #344e41;
+}
+.top-image img {	
+    height:60rem;	
+    object-fit: cover;	
+    display: block;	
+    margin: 2%;	
+    margin-top: 1%;	
+    margin-left: auto;	
+    margin-right: auto;	
+    border-radius: 2%;	
+}	
+
+/*.top-image img:hover {	
+    opacity: 80%;	
+}*/
+
+
+
+a {	
+    text-decoration: none;	
+    color: black;
+    font-size:2.5rem;	
+}	
+a:hover {	
+    font-weight: bold;	
+}
+nav{
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:2%;
+}
+nav a{
+    color:#dad7cd;
+}
+nav span{
+    border-left:3px solid #dad7cd;
+
+}
+
+
+
+@media(max-width:500px){
+
+}
