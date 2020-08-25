@@ -28,10 +28,9 @@ nav{
     height:60rem;	
     object-fit: cover;	
     display: block;	
-    margin: 2%;	
     margin-top: 1%;	
     margin-left: auto;	
-    margin-right: auto;	
+    margin-right: auto;
     border-radius: 2%;	
 }	
 button{
@@ -49,9 +48,9 @@ button:hover{
 .body-context{
     display: flex;
     flex-direction: row;
-    margin:1% 5% 1% 5%;
     text-align: center;
     color:#dad7cd;
+    margin: 1% 10% 2% 10%;
 }
 .body-context img{
     height:50rem;	
@@ -70,6 +69,76 @@ footer{
 .join{
     text-align: center;
 }
+/* About Style */
+.team-top{
+    display:flex;
+    flex-flow:nowrap;
+    justify-content: space-evenly;
+    text-align:center;
+    margin-top:10%;
+    color:#dad7cd;
+}
+.team-top p{
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    background-color: #588157;
+    overflow: hidden;
+}
+
+.team-top img{
+    height:20rem;	
+    object-fit: cover;	
+    display: block;		
+    border-radius: 40%;
+    margin:auto;
+    border:5px solid #588157;
+}
+.Chris{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px dashed black;
+    margin:1% 5% 1% 5%;
+}
+.Yvette{
+    display:flex;
+    flex-direction: column;
+    padding:0 1% 0 0;
+    border-bottom: 1px dashed black;
+}
+.team-lower{
+    display:flex;
+    flex-flow:nowrap;
+    align-content: space-between;
+    text-align:center;
+    color:#dad7cd;
+    margin-top: 5%;
+}
+.team-lower img{
+    height:20rem;	
+    object-fit: cover;	
+    display: block;		
+    border-radius: 40%;
+    margin:auto;
+    border:5px solid #588157;
+}
+.Tatiana{
+    display:flex;
+    flex-direction: column;
+    padding:0 1% 0 0;
+    border-bottom: 1px dashed black;
+}
+.Rafa{
+    display:flex;
+    flex-direction: column;
+    padding:0 1% 0 0;
+    border-bottom: 1px dashed black;
+}
+
+
+
+
 @media(max-width:500px){
 
 }
