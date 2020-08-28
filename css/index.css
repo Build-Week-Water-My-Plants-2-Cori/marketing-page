@@ -211,20 +211,53 @@ footer{
 @media(max-width:500px){
   /*home section */
   header{
+      display: flex;
       align-content: center;
   }
+  .body-context{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    -ms-flex-item-align: center;
+    text-align: center;
+    color:#dad7cd;
+    margin: 0% 25% 0% 25%;
+}
   .info{
     display:flex;
     flex-flow: column-reverse;
     text-align:center;
+    align-items: center;
+    margin: auto;
     background-color: #344e41;
+}
+.info img{
+    height:45rem;		
+    object-fit: cover;
+    display:block;
+    margin:auto;
+    border-radius: 2% 2% 0 2%;
+}
+.types img{
+    height:45rem;		
+    object-fit: cover;
+    display:block;
+    margin:auto;
+    border-radius:0 2% 2% 2%;
 }
 .types{
     display:flex;
-    flex-flow:wrap;
-    align-content: space-between;
+    flex-flow:column;
     text-align:center;
+    align-items: center;
+    margin: auto;
     background-color: #344e41;
+}
+.join{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: auto;
 }
 /* about section */
 .team-top{
